@@ -1,0 +1,32 @@
+#include <iostream>
+#include <stdlib.h>
+#include<ctime>
+using namespace std;
+
+
+
+
+void titlu()
+{
+	cout << "\t\t    ||||||||||||||||||||||||||||||||||||||||| \n";
+	cout << "\t\t    |||||| ***     Black Jack      *** |||||| \n";
+	cout << "\t\t    ||||||||||||||||||||||||||||||||||||||||| \n\n\n";
+}
+
+
+int gen_random()  // Functia care genereaza cartile ..
+{
+	int x, y;
+	srand(time(0));
+	x = rand() % 4 + 1;
+	srand(time(0));
+	y = rand() % 13 + 1;
+	return y * 10 + x;
+
+}
+
+int main()
+{
+titlu();
+return 0;
+}
