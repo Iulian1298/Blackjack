@@ -1,0 +1,6 @@
+  Pentru a juca acest joc trebuie rulat codul c++, apoi se deschide consola unde apare titlul jocului si un text care indica faptul ca 
+pentru a incepe jocul trebuie introdus un nume. Acest nume va fi numele jucatorului. Apoi trebuie introdusa suma de bani cu care se intra 
+in joc (trebuie sa fie intre 50 si 1000). Dupa ce ati introdus suma de bani va aparea modul in care doriti sa jucati: Dealer vs. Player sau 
+Dealer vs. Player vs. Cpu Player. Urmatorul pas este introducerea pariului, iar dupa un moment de asteptare va aparea scorul fiecarui 
+jcator si meniul de unde alegeti ce doriti sa faceti. Dupa ce ati terminat jocul apasati Enter pentru a incepe jocul din nou, iar daca 
+vreti sa iesiti din joc apasati Enter apoi 0.
